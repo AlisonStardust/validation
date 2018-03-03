@@ -9,7 +9,7 @@ body {
 .website_form {
   font-size: 20px;
   width: 300px;
-  height: 500px;
+  height: 600px;
   background-color: #26A96C;
   border: solid 1px #26A96C;
   display: flex;
@@ -43,4 +43,8 @@ body {
 
 .website_app-submit, select { 
     outline: none;
+}
+
+.website_form--alert {
+  display: none;
 }

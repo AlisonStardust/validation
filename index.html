@@ -12,11 +12,14 @@
 <body class="website">
   <form class="website_form" action="#">
     your name
-    <input type="text" class="website_formName" placeholder="your name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'your name'">
+    <input type="text" class="website_formName" placeholder="your first name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'your first name'">
+    <p class="website_form--alert website_form--alert1">Please provide only your first name!</p>
     your surname
     <input type="text" class="website_formSurname" placeholder="your surname" onfocus="this.placeholder = ''" onblur="this.placeholder = 'your surname'">
+    <p class="website_form--alert website_form--alert2">Please provide only your surname!</p>
     your e-mail
     <input type="text" class="website_formEmail" placeholder="your e-mail" onfocus="this.placeholder = ''" onblur="this.placeholder = 'your e-mail'">
+    <p class="website_form--alert website_form--alert3">Please provide one e-mail!</p>
     <input type="submit" class="website_app--submit" value="Submit">
   </form>
   <script src="script.js"></script>
