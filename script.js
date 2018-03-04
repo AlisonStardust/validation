@@ -12,11 +12,11 @@ form.addEventListener('submit', function() {
   validate(!(formEmail.value.match(/^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$/)), alert[2]);
 });
 
-function validate(a, b) {
-  if (a) {
+function validate(conditionRegEx, alertSelector) {
+  if (conditionRegEx) {
     b.style.display = "block";
   } else {
-    b.style.display = "none";
+    alertSelector.style.display = "none";
     console.log(formName.value, formSurname.value, formEmail.value);
   }
 }
