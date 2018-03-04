@@ -12,8 +12,8 @@ form.addEventListener('submit', function() {
   validate(!(formEmail.value.match(/^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$/)), alert[2]);
 });
 
-function validate(conditionRegEx, alertSelector) {
-  if (conditionRegEx) {
+function validate(condition, alertSelector) {
+  if (condition) {
     alertSelector.style.display = "block";
   } else {
     alertSelector.style.display = "none";
