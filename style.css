@@ -48,3 +48,7 @@ body {
 .website_form--alert {
   display: none;
 }
+
+.website_form--correct {
+  display: none;
+}
