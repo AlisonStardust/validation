@@ -14,7 +14,7 @@ form.addEventListener('submit', function() {
 
 function validate(conditionRegEx, alertSelector) {
   if (conditionRegEx) {
-    b.style.display = "block";
+    alertSelector.style.display = "block";
   } else {
     alertSelector.style.display = "none";
     console.log(formName.value, formSurname.value, formEmail.value);
