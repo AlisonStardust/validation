@@ -7,9 +7,9 @@ body {
 }
 
 .website_form {
-  font-size: 20px;
+  font-size: 18px;
   width: 300px;
-  height: 600px;
+  height: 620px;
   background-color: #26A96C;
   border: solid 1px #26A96C;
   display: flex;
@@ -21,7 +21,7 @@ body {
 }
 
 .website_form > input {
-  padding: 10px;
+  padding: 8px;
   margin: 10px;
 }
 
